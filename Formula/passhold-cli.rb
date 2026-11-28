@@ -1,28 +1,28 @@
 class PassholdCli < Formula
   desc "Password manager in a terminal: secrets for scripts and an SSH agent"
   homepage "https://keyrook.com/passhold/"
-  version "0.3.0"
+  version "0.4.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/keyrook/passhold/releases/download/cli-v0.3.0/passhold-0.3.0-macos-arm64.tar.gz"
-      sha256 "27ea38276f920dd8f71d2280470f250f8e29867003f607f2ef8dab31a0160cd9"
+      url "https://github.com/keyrook/passhold/releases/download/cli-v0.4.0/passhold-0.4.0-macos-arm64.tar.gz"
+      sha256 "82947d1f910974cd399235f7ea95ea768f823d9608a1077c09b375c56735a23a"
     end
     on_intel do
-      url "https://github.com/keyrook/passhold/releases/download/cli-v0.3.0/passhold-0.3.0-macos-x64.tar.gz"
-      sha256 "0ffcc88192a1c79f9061e40c1b9997555cae27c13e702cad66aa5ec647ad8f0a"
+      url "https://github.com/keyrook/passhold/releases/download/cli-v0.4.0/passhold-0.4.0-macos-x64.tar.gz"
+      sha256 "5ab30cfcf42dd41a9ffcfc1311d69ded7aa8a081541bcf296778052402c4eca2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/keyrook/passhold/releases/download/cli-v0.3.0/passhold-0.3.0-linux-arm64.tar.gz"
-      sha256 "57b3ff81552da48df0a2c147ef880718149bc2892ad37a76e425027df0dcf20e"
+      url "https://github.com/keyrook/passhold/releases/download/cli-v0.4.0/passhold-0.4.0-linux-arm64.tar.gz"
+      sha256 "e39abe488bb7437eff801ea235582bcf2c1cb96375fc2ad94a1bd323630304af"
     end
     on_intel do
-      url "https://github.com/keyrook/passhold/releases/download/cli-v0.3.0/passhold-0.3.0-linux-x64.tar.gz"
-      sha256 "295f9d0cbfa09267f0fec80c626ea51e1dc6b1a69345fd6b04f0117cb6b4a950"
+      url "https://github.com/keyrook/passhold/releases/download/cli-v0.4.0/passhold-0.4.0-linux-x64.tar.gz"
+      sha256 "95939694ebe03c376c61976da6e5bc3e3d1f409e1c9ec6d4a17bf0e6ae6db50d"
     end
   end
 
